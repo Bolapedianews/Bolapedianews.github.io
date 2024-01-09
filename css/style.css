@@ -9655,16 +9655,16 @@ h6,
   z-index: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .news-lg {
-    height: 350px;
+    height: 400px;
   }
   .news-lg .border {
     border-left: none !important;
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 800.98px) {
   .news-lg .border {
     border-top: none !important;
   }
