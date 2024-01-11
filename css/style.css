@@ -74,7 +74,7 @@ hr {
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -367,6 +367,14 @@ h1, h2, h3, h4, h5, h6,
   color: #31404B;
 }
 
+h7,
+.h7{
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #31404B;
+
+}
 h1, .h1 {
   font-size: 2.5rem;
 }
@@ -414,6 +422,11 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem;
 }
+
+h7, .h7 {
+  font-size: 0.70rem;
+}
+
 
 .lead {
   font-size: 1.25rem;
@@ -597,7 +610,8 @@ pre code {
 .container-sm,
 .container-md,
 .container-lg,
-.container-xl {
+.container-xl,
+.container-ads {
   width: 100%;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
@@ -606,27 +620,28 @@ pre code {
 }
 
 @media (min-width: 576px) {
-  .container, .container-sm {
+  .container, .container-sm, .container-ads {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, .container-sm, .container-md {
+  .container, .container-sm, .container-md,.container-ads {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .container-sm, .container-md, .container-lg {
+  .container, .container-sm, .container-md, .container-lg,.container-ads {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, .container-sm, .container-md, .container-lg, .container-xl, .container-ads {
     max-width: 1140px;
   }
+
 }
 
 .row {
@@ -9664,7 +9679,7 @@ h6,
   }
 }
 
-@media (max-width: 768.98px) {
+@media (max-width: 767.98px) {
   .news-lg .border {
     border-top: none !important;
   }
@@ -9675,3 +9690,4 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
